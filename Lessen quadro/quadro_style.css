@@ -1,0 +1,109 @@
+
+*{
+    margin: 0;
+}
+
+
+
+.parent_quadro_blue{
+    position: absolute;
+    background-color:#00b2f6;
+    width: 500px;
+    height: 500px;
+    top: 150px;
+    left: 500px;
+}
+
+.quadro_blue_transfer_red{
+    position: absolute;
+    background-color:transparent;
+    width: 500px;
+    height: 500px;
+    top: 0%;
+    left: 0%;
+}
+
+.quadro_blue_transfer_red:hover{
+    background-color: #ed1a1a;
+    z-index: 1;
+}
+
+.quadro_blue_yellow_center{
+    position: absolute;
+    background-color: yellow;
+    width: 60%;
+    height: 60%;
+    border-radius: 20%;
+    margin: 20%;
+}
+
+.quadro_blue_transfer :hover{
+    background-color: #ed1ad0;
+    z-index: 0;
+}
+
+
+
+.quadro_blue_top_right_lap{
+    position: absolute;
+    background-color: red;
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    top: -20%;
+    right: -20%;
+    z-index: -1;
+}
+
+.quadro_blue_top_right_lap:hover{
+    background-color: #1aed36;
+    z-index: 0;
+}
+
+.quadro_blue_bottom_right_lap{
+    position: absolute;
+    background-color: red;
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    bottom: -20%;
+    right: -20%;
+    z-index: -1;
+}
+
+.quadro_blue_bottom_right_lap:hover{
+    background-color: #ed1aca;
+    z-index: 0;
+}
+
+.quadro_blue_top_left_lep{
+    position: absolute;
+    background-color: red;
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    top: -20%;
+    left: -20%;
+    z-index: -1;
+}
+
+.quadro_blue_top_left_lep:hover{
+    background-color: #edcd1a;
+    z-index: 0;
+}
+
+.quadro_blue_bottom_left_lap{
+    position: absolute;
+    background-color: red;
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    left: -20%;
+    bottom: -20%;
+    z-index: -1;
+}
+
+.quadro_blue_bottom_left_lap:hover{
+    background-color: #281aed;
+    z-index: 0;
+}
